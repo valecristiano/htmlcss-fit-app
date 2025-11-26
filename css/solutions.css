@@ -3,6 +3,12 @@
 {
     content: "🔥";
 }
+.stats-grid:last-child
+{
+color: white;
+background: linear-gradient(to right, #6973DA, #7252AD) ;
+}
+
 
 .stats-container :hover
 { 
@@ -10,4 +16,9 @@
  top: -5px;
  transition: top 0.3s ease-in-out;
  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.623);
+}
+
+.workout-plan:nth-child(3) {
+    background-color: #dbdd92;
+    border-left: 4px solid orange;
 }
