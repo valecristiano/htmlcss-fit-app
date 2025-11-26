@@ -55,3 +55,39 @@ button:hover {
  box-shadow: 4px 4px 6px blue;
  background-color: lightblue;
 }
+
+.progress-fill::after {
+ content: "65%";
+ color: white;
+ position: relative;
+ top: -90%;
+ left: 90%;
+ font-size: 10px;
+}
+
+a:hover {
+    color: blue;
+    background-color: #19222b;
+}
+
+.nav-item:first-child {
+    background-color: #19222b;
+}
+
+.quote-box::before {
+content: "❝";
+color: #4b3696bc;
+font-size: 25px;
+position: relative;
+top: 36px;
+right: 52%;
+}
+
+.quote-box::after {
+content: "❞";
+color: #4b3696bc;
+font-size: 25px;
+position: relative;
+top: -33px;
+left: 32%;
+}
