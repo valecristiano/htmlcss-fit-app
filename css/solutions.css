@@ -22,3 +22,36 @@ background: linear-gradient(to right, #6973DA, #7252AD) ;
     background-color: #dbdd92;
     border-left: 4px solid orange;
 }
+
+.exercise-item:first-child {
+    background-color: #bee3b2;
+    border-left: 4px solid green;
+}
+
+.exercise-item:last-child {
+    background-color: #dcecd6;
+    border-left: 4px solid green;
+}
+.exercise-item:nth-child(even)::before{
+    content: "⚡";
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 4px 4px 6px rgba(0, 0, 255, 0.706);
+    transition: top 0.3s ease-in-out;
+}
+
+option:focus {
+    border-color: blue;
+    box-shadow: 4px 4px 6px rgba(0, 0, 255, 0.706);
+    transition: border 0.3s ease-in-out 0.5s;
+}
+
+button:hover { 
+ position: relative;
+ top: -2px;
+ transition: top 0.3s ease-in-out;
+ box-shadow: 4px 4px 6px blue;
+ background-color: lightblue;
+}
